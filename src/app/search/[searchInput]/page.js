@@ -2,7 +2,6 @@
 
 import { MovieRow } from "@/components/MovieRow";
 import { movieDB } from "@/libs/movieDB";
-import { IconStar } from "@tabler/icons-react";
 
 export default function SearchResultPage({ params }) {
   const searchInput = params.searchInput;
